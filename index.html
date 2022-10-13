@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Quiz</title>
+    <link rel = "stylesheet" href ="./assets/css/style.css">
+  </head>
+  <body>
+ 
+  
+    <header><h1 id="header">Knowledge Check</h1></header>
+    <p id="rules" class="rules">You have 60 seconds to answer 5 questions. For every question right, you will receive 5 points. For every question wrong, 10 seconds will be taken off the clock. Your score will be calculated by adding the time remaining with your score.</p>
+    <button class ="start" id="start"><strong>START</strong></button>
+   
+    <h2 id="viewHighScores"><a href="highscore.html">View High Scores</a></h2>
+   
+    <div class="timer" id="timer"></div>
+    <div class = "score" id="score"></div>
+ 
+    <section id="questions" class="questions">
+      <div id="questionOne">
+        <h3>CSS style sheets are read how?</h2>
+       <button id="correct-answer-one">A) Top to Bottom</button>
+       <button class="wrong-answer-one">B) Bottom to Top</button>
+       <button class="wrong-answer-one">C) Left to Right</button>
+       <button class="wrong-answer-one">D) Right to Left</button>
+      </div>
+ 
+      <div id="questionTwo">
+        <h3>JavaScript is a ____-side programming language.</h2>
+        <button class="wrong-answer-two">A) Client</button>
+        <button class="wrong-answer-two">B) Server</button>
+        <button id="correct-answer-two">C) Both A & B</button>
+        <button class="wrong-answer-two">D) None of the above</button>
+      </div>
+ 
+      <div id="questionThree">
+        <h3>var number = "1" - is stored as what type of variable?</h2>
+        <button class="wrong-answer-three">A) Number</button>
+        <button id="correct-answer-three">B) String</button>
+        <button class="wrong-answer-three">C) Boolean</button>
+        <button class="wrong-answer-three">D) Undefined</button>
+      </div>
+ 
+      <div id="questionFour">
+        <h3>To add an element to the end of an array you use:</h2>
+        <button class="wrong-answer-four">A) pop()</button>
+        <button class="wrong-answer-four">B) add()</button>
+        <button class="wrong-answer-four">C) slice()</button>
+        <button id="correct-answer-four">D) push()</button>
+      </div>
+ 
+      <div id="questionFive">
+        <h3>HTML stands for:</h2>
+        <button id="correct-answer-five">HyperText Markup Language</button>
+        <button class="wrong-answer-five">HighTech Markup Language</button>
+        <button class="wrong-answer-five">HighText Machine Language</button>
+        <button class="wrong-answer-five">HeyThere My Lizards</button>
+      </div>
+    </section>
+    <form id="greatJob">
+      <br><br>
+      <h3>Great job!</h3>
+      <p>Please enter your initials for high score.</p>
+      <label class="initials"></label><br>
+      <input type="text"  class="textInitials" id="textInitials">
+      <input type="submit" id="submitButton" class = "submitButton">
+    </form>
+ 
+    <div class = "gameOver" id="gameOver">
+     
+      <h3>TIME IS UP!</h3>
+      <button id ="replay">Try again?</a></button>
+    </div>
+ 
+    <script src = "./assets/js/script.js"></script>
+  </body>
+</html>
