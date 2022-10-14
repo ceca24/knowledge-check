@@ -12,7 +12,7 @@ body{
 button {
     flex-wrap: wrap;
     position:relative;
-    background: #004e16;
+    background: #005f18;
     color:#eee;
     border: none;
     border-radius: 50px;
@@ -23,11 +23,11 @@ button {
  
 a {
     text-decoration: none;
-    color: rgb(178, 0, 0);
+    color: rgb(120, 0, 122);
 }
  
 a:hover {
-    color: chartreuse;
+    color: rgb(0, 88, 19);
 }
  
 button:hover {
@@ -45,7 +45,7 @@ button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color:#eee;
-    background:#098191;
+    background:#005f18;
     border-radius: 50px;
     border: none;
     padding: 0.75rem 1.5rem;
@@ -56,7 +56,7 @@ button:hover {
     position: absolute;
     top: 0px;
     left: 0px;
-    color:rgb(95, 0, 0);
+    color:#ff006f;
     font-size: 20px;
 }
  
@@ -64,7 +64,7 @@ button:hover {
     position: absolute;
     top: 0px;
     right: 0px;
-    color: rgb(0, 124, 89);
+    color: rgb(0, 255, 55);
     font-size: 20px;
 }
  
@@ -83,7 +83,7 @@ button:hover {
     font-size: 1.2rem;
 }
 .submitButton:hover {
-    background:#5b0027;
+    background:#64002b;
     cursor: grab;
     color: #eee;
     transition: ease .5s;

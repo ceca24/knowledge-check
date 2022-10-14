@@ -12,7 +12,7 @@ body{
 button {
     flex-wrap: wrap;
     position:relative;
-    background:rgb(0, 102, 15);
+    background:rgb(0, 88, 19);
     color:#eee;
     border: none;
     border-radius: 50px;
@@ -25,7 +25,7 @@ button a {
     color: #ffffff;
   }
   button:hover {
-    background: #4c0121;
+    background: rgb(120, 0, 122);
     cursor: grab;
     color: #eee;
     transition: ease .5s;
@@ -37,6 +37,6 @@ button a {
   }
  
   #highScores{
-    color:rgb(0, 102, 15);
+    color:rgb(0, 88, 19);
     font-size: 20px;
   }
