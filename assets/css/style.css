@@ -12,7 +12,7 @@ body{
 button {
     flex-wrap: wrap;
     position:relative;
-    background: #00444e;
+    background: #004e16;
     color:#eee;
     border: none;
     border-radius: 50px;
@@ -23,7 +23,7 @@ button {
  
 a {
     text-decoration: none;
-    color: red;
+    color: rgb(178, 0, 0);
 }
  
 a:hover {
@@ -64,7 +64,7 @@ button:hover {
     position: absolute;
     top: 0px;
     right: 0px;
-    color: chartreuse;
+    color: rgb(0, 124, 89);
     font-size: 20px;
 }
  
@@ -75,7 +75,7 @@ button:hover {
 .submitButton {
     flex-wrap: wrap;
     position:relative;
-    background:#098191;
+    background:#005f18;
     color:#eee;
     border: none;
     border-radius: 50px;
@@ -83,7 +83,7 @@ button:hover {
     font-size: 1.2rem;
 }
 .submitButton:hover {
-    background:#251e21;
+    background:#5b0027;
     cursor: grab;
     color: #eee;
     transition: ease .5s;
